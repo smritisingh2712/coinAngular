@@ -1,0 +1,139 @@
+<body *ngIf="bb">
+  <ul id="left">
+  <li>Cryptos: <a id="a1">19,509</a></li>
+  <li>Exchanges: <a id="a1">527</a></li>
+  <li>Market Cap: <a id="a1">$1,286,363,393,602</a></li>
+  <li>24h Vol: <a id="a1">$83,385,847,710</a></li>
+  <li>Dominance: <a id="a1">BTC: 44.8%</a><a>ETH: 19.1%</a></li>
+  <li>ETH Gas: <a id="tt">12 Gwei</a></li>
+  <li><a>English</a></li>
+  <li><a>USD</a></li>
+  <li><a><button 
+    (click)="daynight()" 
+    [ngClass]="{'day' : bb, 'night': !bb}">
+Click</button></a></li>
+</ul>
+<hr>
+<ul id="second">
+<img src="assets/m.png" id="b"><b id="txt">CoinmarketCap</b>
+  <li><a>Cryptocurrencies</a></li>
+  <li><a>Exchanges</a></li>
+  <li><a>NFT</a></li>
+  <li><a>Gravity</a></li>
+  <li><a>Portfolio</a></li>
+  <li><a>Watchlist</a></li>
+  <li><a>Products</a></li>
+  <li id="sep"><a>Learn</a></li>
+  <li><a>Log In</a></li>
+  <li><a><button id="sign">Sign Up</button></a></li>
+  <li><a><input type="search" placeholder="Search" id="search"></a></li>
+</ul>
+<hr>
+<div style="width: 100%; height: 200px; text-align:center;margin:0; padding:0;">
+  <ng-image-slider #nav
+    [images]="imageObject"
+    [infinite]="false"
+    [autoSlide]="1"
+    [imageSize]="{width: '25%', height: 150}"
+    slideImage="1"></ng-image-slider>
+</div>
+<div>
+  <b id="gg">Today's Cryptocurrency Prices by Market Cap</b>
+  <br>
+  <b id="gk">The global crypto market cap is $1.25T, a 2.29% decrease over the last day. <a (click)="show()">Read More</a></b>
+  <div *ngIf="xb" id="inclusive">
+    The total crypto market volume over the last 24 hours is $78.88B, which makes a 11.05% decrease. The total volume in DeFi is currently $7.13B, 9.04% of the total crypto market 24-hour volume. The volume of all stable coins is now $72.71B, which is 92.18% of the total crypto market 24-hour volume.
+
+Bitcoin's price is currently $29,348.17.
+
+Bitcoin’s dominance is currently 44.68%, a decrease of 0.16% over the day.
+  </div>
+</div>
+  <div id="table">
+    <div id="one">
+<ul id="f1"><b id="text1">Name</b>
+  <li *ngFor="let name of name" id="list">{{ name }}</li>
+</ul>
+</div>
+<div id="two">
+<ul id="f2"><b id="text1">Price</b>
+  <li *ngFor="let price of price" id="list1">{{ price }}</li>
+</ul>
+</div>
+<div id="three">
+<ul id="f3"><b id="text1">24h%</b>
+  <li *ngFor="let hr24 of hr24" id="list2">{{ hr24 }}</li>
+</ul>
+</div>
+<div id="four">
+<ul id="f4"><b id="text1">7d%</b>
+  <li *ngFor="let day7 of day7" id="list3">{{ day7 }}</li>
+</ul>
+</div>
+<div id="five">
+<ul id="f5"><b id="text">Market Cap</b>
+  <li *ngFor="let marketcap of marketcap" id="list4">{{ marketcap }}</li>
+</ul>
+</div>
+<div id="six">
+<ul id="f6"><b id="text1">Volume</b>
+  <li *ngFor="let volume of volume" id="list5">{{ volume }}</li>
+</ul>
+</div>
+
+<div id="seven">
+<ul id="f7"><b id="text1">Circulating Supply</b>
+  <li *ngFor="let cir of cir" id="list6">{{ cir }}</li>
+</ul>
+</div>
+</div>
+  <div id="footer">
+    <b id="foottxt">Be the first to know about crypto news every 
+      day</b>
+    <br>
+    <b id="foottxt2">Get crypto analysis, news and updates right to your inbox! Sign up here so you don't miss a single newsletter.</b>
+    <br>
+    <button id="sub">Subscribe</button>
+    <img id="footerimage" src="assets/footerimg.svg">
+  </div>
+  <div id="footer2">
+    <img src="assets/m.png" id="b1"><b id="txtt">CoinmarketCap</b>
+
+    <ul id="first"><h1>Products</h1>
+      <li>Block Chain Explorer</li>
+      <li>Crypto API</li>
+      <li>Crypto Indices</li>
+      <li>Jobs Board</li>
+      <li>Sitemap</li>
+    </ul>
+
+    <ul id="secondd"><h1>Company</h1>
+      <li>About us</li>
+      <li>Terms of use</li>
+      <li>Privacy Policy</li>
+      <li>Community Rules</li>
+      <li>Disclaimer</li>
+      <li>Methodology</li>
+      <li>Careers <button id="career">We're hiring!</button></li>
+    </ul>
+
+    <ul id="third"><h1>Support</h1>
+      <li>Request Form</li>
+      <li>Contact Support</li>
+      <li>FAQ</li>
+      <li>Glossary</li>
+    </ul>
+
+    <ul id="fourth"><h1>Socials</h1>
+      <li>Facebook</li>
+      <li>Twitter</li>
+      <li>Telegram</li>
+      <li>Instagram</li>
+      <li>Interactive Chat</li>
+    </ul>
+
+    <br>
+    <br>
+    <b id="last"><i>&copy; 2022 CoinmarketCap. All rights reserved</i></b>
+  </div>
+</body>

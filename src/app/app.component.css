@@ -1,0 +1,333 @@
+.day
+{
+    background-color: white;
+    color:black;
+}
+
+.night
+{
+    background-color: black;
+    color:white;
+}
+
+#left li
+{   
+    font-family: BlinkMacSystemFont;
+    font-size:12.2px;
+    font-weight: bold;
+    margin-left:-1.6%;
+    padding-right: 3%;
+    text-decoration: none;
+    display: inline;
+}
+
+#left #tt
+{
+    margin-right: 18%;
+}
+
+#left li #a1,#tt
+{
+    color:blue;
+}
+
+#b
+{
+    width:2%;
+}
+#txt
+{
+    margin-left:1%;
+    font-size:25px;
+    font-family:Georgia;
+}
+
+#second li
+{
+    text-decoration: none;
+    display:inline;
+    margin-right:2%;
+    margin-top: -10%;
+    font-size:15px;
+    font-weight: bold;
+}
+
+#second #sep
+{
+    margin-right:6%;
+}
+
+#search
+{
+    width:10%;
+    border-radius:8px;
+    padding-top:3px;
+    padding-bottom: 5px;
+    background-color:azure;
+}
+#second #txt,#b
+{
+    margin-left: -2%;
+    margin-right: 2%;
+}
+
+.slick-slider {  
+    width: 90%;  
+    margin: auto;  
+  }
+
+#gg
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+} 
+#gk
+{
+    color:grey;
+    font-family: Georgia;
+}
+#inclusive
+{
+    font-family: BlinkMacSystem;
+    margin-top:1%;
+    font-weight: bold;
+    color:grey;
+}
+
+#trend
+{
+    margin-top:2%;
+    font-family: Georgia;
+    border:1px solid grey;
+    width:34%;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+
+#trendtxt
+{
+    font-family: Georgia;
+    margin-left: 15%;
+}
+
+#trend ul li
+{
+    text-decoration:none;
+    padding-top:2%;
+}
+#big
+{
+    font-family: Georgia;
+    border:1px solid grey;
+    width:32.3%;
+    margin-left:34.6%;
+    margin-top:-10.2%;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+
+#bigtxt
+{
+    font-family: Georgia;
+    margin-left: 15%;
+}
+
+#big ul li
+{
+    text-decoration:none;
+    padding-top:2%;
+}
+
+#recent
+{
+    font-family: Georgia;
+    border:1px solid grey;
+    width:33%;
+    margin-left:67.6%;
+    margin-top:-10.2%;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+
+#rtxt
+{
+    font-family: Georgia;
+    margin-left: 35%;
+}
+
+#recent ul li
+{
+    text-decoration:none;
+    padding-top:2%;
+}
+
+#footer
+{
+    margin-top:1%;
+    background-color:lightblue;
+}
+#footerimage
+{
+    margin-left:58%;
+    padding-right: 50%;
+}
+#foottxt
+{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+#foottxt2
+{
+    font-family: BlinkMacSystemFont;
+    font-size: 15px;
+    margin-left: 2%;
+}
+
+#sub
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    color:white;
+    background-color: blue;
+    padding:1% 2% 1% 2%;
+    border-radius: 5px;
+    border:1px solid white;
+}
+
+#b1
+{
+    width:3%;
+}
+
+#first
+{
+    margin-left:38%;
+    margin-top: -55px;
+}
+
+#secondd
+{
+    margin-left:52%;
+    margin-top: -175px;
+}
+
+#third
+{
+    margin-left: 66%;
+    margin-top:-210px;
+}
+
+#fourth
+{
+    margin-left: 78%;
+    margin-top: -152px;
+}
+
+#career
+{
+    border-radius: 5px;
+    border:1px solid white;
+    background-color: blue;
+    color:white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#last
+{
+    color:grey;
+}
+
+#sign
+{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#table {
+    min-width: 500px;
+    margin: 0 auto;
+    margin-top: 1%;
+    border:1px solid black;
+    }
+#f1
+{
+    text-decoration: none;
+    list-style-type: none;
+    list-style: fixed;
+}
+#f2
+{
+    text-decoration:none;
+    margin-top:-139.2%;
+    margin-left:15%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+#f3
+{
+    margin-top: -139.2%;
+    margin-left:32%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+
+#f4
+{
+    margin-top: -139.2%;
+    margin-left:45%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+
+
+#f5
+{
+    margin-top: -139.2%;
+    margin-left:55%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+
+#f6
+{
+    margin-top: -139.2%;
+    margin-left:70%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+
+
+#f7
+{
+    margin-top: -139.2%;
+    margin-left:84%;
+    list-style-type: none;
+    overflow: hidden;
+    list-style: fixed;
+}
+
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 200px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    width: 100px;
+    overflow: hidden;
+  }
